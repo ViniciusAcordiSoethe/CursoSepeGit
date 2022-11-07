@@ -93,18 +93,43 @@ aqui vamos usar um comando que vai informar para o git os arquivos que o DEV des
 git add .
 ```
 #### Resumir o trabalho no commit
-aqui resumimos todos o trabalho feito
+
 ```sh
 git commit -m "FRASE DE EXEMPLO"
 ```
 ### Comandos de Publicação
 
+#### Parear informações
+```sh
+git fetch
+```
+o git fetch funciona como um refresh na pagina atualizando as informações
 
+#### Baixar as alterações feitas
+O git pull é responsavel por baixar da nuvem 
+```sh
+git pull
+```
+#### Dar Upload no seu Desenvolvimento
+Comando usado depois de todo o processo para mandar seu dia de trabalho para a nuvem 
+```sh
+git push
+```
+### Comandos de Mesclagem
+#### Mesclar as branches
+Esse comando vai copiar e colar a branch selecionado para a atual e o DEV tera que resolver os comflitos
+```sh
+git merge NOME_DA_BRANCH
+```
+#### Sobreescrever as Branches
+Mais recomendado em casos que a Branch está muito atrasada 
+```sh
+git rebase NOME_DA_BRANCH
+```
+### Comandos de desfazer
+#### 
 ## Comandos GIT Avançados 
 
 Como voltar e alterar o nome e email do comit
-
 ```sh
 git rebase -i --root -x "git commit --amend --author='YOUR_USERNAME user@example.com --no-edit'"
-
-```
