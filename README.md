@@ -127,9 +127,37 @@ Mais recomendado em casos que a Branch está muito atrasada
 git rebase NOME_DA_BRANCH
 ```
 ### Comandos de desfazer
-#### 
+#### Voltar o erro de um Commit 
+Para voltar um erro o reverter oque foi feito usamos 
+```sh
+git log
+```
+para pegar o ID do commit que vão reverter
+e então usamos 
+```sh
+git revert ID_DO_COMMIT
+```
+#### Apagar a linha do tempo 
+Muito cuidado com esse comando principalmente se já foi dado push pois vai alterar a linha do tempo para todos os desenvolvedores
+usamos o git log para saber o id do commit
+e apá usar 
+```sh
+git reset ID_DO_COMMIT
+```
+Todos os commites a frente dele serão apagados 
+temos tambem 
+```sh
+git reset --hard ID_DO_COMMIT
+```
+que apagara todos os arquivos 
+e 
+```sh
+git reset --solf ID_DO_COMMIT
+```
+que vai deixar todas as alterações para escolher novamente qual vamos commitar 
 ## Comandos GIT Avançados 
 
 Como voltar e alterar o nome e email do comit
 ```sh
 git rebase -i --root -x "git commit --amend --author='YOUR_USERNAME user@example.com --no-edit'"
+```
