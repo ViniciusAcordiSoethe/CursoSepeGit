@@ -115,6 +115,11 @@ Comando usado depois de todo o processo para mandar seu dia de trabalho para a n
 ```sh
 git push
 ```
+Caso seja o primeiro Push do projeto ou da branch deve usar o comando 
+
+```sh
+git push --set-upstream origin NOME_DA_BRANCH
+```
 ### Comandos de Mesclagem
 #### Mesclar as branches
 Esse comando vai copiar e colar a branch selecionado para a atual e o DEV tera que resolver os comflitos
