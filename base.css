@@ -1,0 +1,14 @@
+body{
+    background-color: #583207a1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+.titulo{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+}
