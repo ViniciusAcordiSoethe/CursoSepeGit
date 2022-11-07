@@ -1,14 +1,14 @@
 body{
-    background-color: #583207a1;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #333;
-    line-height: 1.5;
+    background-color: #fa640ead;
+    font-family: 'arial', sans-serif;
+    font-size: 22px;
+    color: rgba(5, 5, 5, 0.808);
+    line-height: 1.8;
 }
 .titulo{
-    font-size: 60px;
+    font-size: 75px;
     font-weight: 600;
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
 }
