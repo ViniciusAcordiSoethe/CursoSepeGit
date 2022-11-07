@@ -6,9 +6,9 @@ body{
     line-height: 1.5;
 }
 .titulo{
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 600;
-    color: rgb(0, 0, 0);
+    color: rgb(207, 26, 26);
     text-align: center;
     margin-bottom: 20px;
 }
