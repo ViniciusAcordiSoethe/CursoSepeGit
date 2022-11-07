@@ -115,11 +115,6 @@ Comando usado depois de todo o processo para mandar seu dia de trabalho para a n
 ```sh
 git push
 ```
-Caso seja o primeiro Push do projeto ou da branch deve usar o comando 
-
-```sh
-git push --set-upstream origin NOME_DA_BRANCH
-```
 ### Comandos de Mesclagem
 #### Mesclar as branches
 Esse comando vai copiar e colar a branch selecionado para a atual e o DEV tera que resolver os comflitos
@@ -162,7 +157,25 @@ git reset --solf ID_DO_COMMIT
 que vai deixar todas as alterações para escolher novamente qual vamos commitar 
 ## Comandos GIT Avançados 
 
-Como voltar e alterar o nome e email do comit
+### Como voltar e alterar o nome e email do comit
 ```sh
 git rebase -i --root -x "git commit --amend --author='YOUR_USERNAME user@example.com --no-edit'"
+```
+
+### Comitei com a branch desatualizada
+Primeiro deletaremos ultimo commit
+```sh
+git reset --solf ID_DO_COMMIT
+```
+depois usamos esse comando para salvar no stash as alterações 
+```sh
+git stash
+```
+Depois usamos esse comando para atualizar a branch
+```sh
+git pull
+```
+e por ultimo esse comando para colocar as alterações devolta
+```sh
+git stash pop
 ```
