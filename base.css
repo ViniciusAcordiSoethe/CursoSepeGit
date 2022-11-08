@@ -1,29 +1,80 @@
-body{
-    background-color: #fa640ead;
-    font-family: 'arial', sans-serif;
-    font-size: 22px;
-    color: rgba(5, 5, 5, 0.808);
-    line-height: 1.8;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: hsla(282, 58%, 47%, 1);
+    background: linear-gradient(90deg, hsla(282, 58%, 47%, 1) 0%, hsla(210, 80%, 29%, 1) 100%);
 }
-.titulo{
-    font-size: 75px;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin-bottom: 27px;
+
+h1 {
+    color: white;
+    font-size: 35px;
 }
-.box-texto{
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
-    padding: 20px;
+
+.events {
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.event {
+    width: 550px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    background-color: rgb(225, 225, 225);
 }
-.fonteDaReceita{
-    font-size: 30px;
-    font-weight: 600;
-    color: rgb(255, 0, 170);
+.event-title {
+    font-size: 18px;
     text-align: center;
-    margin-bottom: 27px;
+    height: 5%;
 }
+.event-info {
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.image {
+    width: 45%;
+    margin-left: 2.5%;
+    height: 180px;
+}
+
+.description {
+    width: 45%;
+    margin-left: 2.5%;
+}
+
+.date-hour-place {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.access-button {
+    width: 300px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 125px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(90deg, hsla(167, 57%, 48%, 1) 0%, hsla(112, 72%, 62%, 1) 100%);
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.access-button:hover {
+    cursor: pointer;
+    transform: scale(105%);
+    transition: 0.5s;
+}
+
+#image_1 { background: linear-gradient(90deg, hsla(135, 53%, 50%, 1) 0%, hsla(217, 78%, 69%, 1) 100%); }
+#image_2 { background: linear-gradient(90deg, hsla(229, 54%, 47%, 1) 2%, hsla(281, 80%, 51%, 1) 100%); }
+#image_3 { background: linear-gradient(90deg, hsla(352, 54%, 47%, 1) 2%, hsla(34, 80%, 51%, 1) 100%); }
+#image_4 { background: linear-gradient(90deg, hsla(175, 54%, 47%, 1) 2%, hsla(34, 80%, 51%, 1) 100%); }
