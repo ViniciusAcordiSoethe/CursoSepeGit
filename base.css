@@ -17,7 +17,7 @@ h1 {
 
 .events {
     width: 80%;
-    background-color:#00a859;
+    background-color:#F05033;
     border-radius: 15px;
     display: flex;
     justify-content: space-around;
@@ -72,7 +72,7 @@ h1 {
     font-size: 18px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #00a859;
+    background-color: #F05033;
     border: none;
     border-radius: 10px;
     transition: .2s;
