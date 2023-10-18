@@ -11,7 +11,7 @@ h1 {
 }
 
 #logo-ifc {
-    width: 400px;
+    width: 100vh;
     margin-top: 30px;
 }
 
@@ -26,10 +26,10 @@ h1 {
 }
 
 .event {
-    width: 550px;
+    width: 60vh;
     border-radius: 10px;
     padding: 10px;
-    margin: 2.5% 2.5% 2.5% 2.5%;
+    margin: 2.5%;
     background-color: rgb(225, 225, 225);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -81,5 +81,5 @@ h1 {
 
 .access-button:hover {
     cursor: pointer;
-    transform: scale(105%);
+    transform: scale(110%);
 }
