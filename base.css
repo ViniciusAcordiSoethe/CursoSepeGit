@@ -23,11 +23,20 @@ h1 {
     rgba(63, 94, 251, 1) 0%,
     rgba(252, 70, 107, 1) 100%
   );
-  border-radius: 15px;
+  border-radius: 5px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.events:hover {
+  background: rgb(64, 166, 39);
+  background: radial-gradient(
+    circle,
+    rgba(64, 166, 39, 1) 13%,
+    rgba(252, 235, 70, 1) 100%
+  );
 }
 
 .event {
