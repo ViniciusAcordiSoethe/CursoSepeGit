@@ -1,85 +1,105 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 #logo-ifc {
-    width: 400px;
-    margin-top: 30px;
+  width: 400px;
+  margin-top: 30px;
 }
 
 .events {
-    width: 80%;
-    background-color:#F05033;
-    border-radius: 15px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+  width: 80%;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.events:hover {
+  background: rgb(64, 166, 39);
+  background: radial-gradient(
+    circle,
+    rgba(64, 166, 39, 1) 13%,
+    rgba(252, 235, 70, 1) 100%
+  );
 }
 
 .event {
-    width: 550px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 2.5% 2.5% 2.5% 2.5%;
-    background-color: rgb(225, 225, 225);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 550px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2.5% 2.5% 2.5% 2.5%;
+  background-color: rgb(225, 225, 225);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .event-title {
-    font-size: 18px;
-    text-align: center;
-    height: 5%;
+  font-size: 18px;
+  text-align: center;
+  height: 5%;
 }
 
 .event-info {
-    width: 100%;
-    height: 60%;
-    display: flex;
+  width: 100%;
+  height: 60%;
+  display: flex;
 }
 
 .image {
-    width: 45%;
-    margin-left: 2.5%;
-    height: 180px;
-    border-radius: 10px;
-    background-color: rgb(185, 185, 185);
+  width: 45%;
+  margin-left: 2.5%;
+  height: 180px;
+  border-radius: 10px;
+  background-color: rgb(185, 185, 185);
 }
 
 .description {
-    width: 45%;
-    margin-left: 2.5%;
+  width: 45%;
+  margin-left: 2.5%;
 }
 
 .date-hour-place {
-    text-align: right;
-    margin-right: 50px;
+  text-align: right;
+  margin-right: 50px;
 }
 
 .access-button {
-    padding: 15px 30px 15px 30px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    margin-left: 125px;
-    font-size: 18px;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #F05033;
-    border: none;
-    border-radius: 10px;
-    transition: .2s;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px 30px 15px 30px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 125px;
+  font-size: 18px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 24%,
+    rgba(200, 54, 140, 1) 71%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  border: none;
+  border-radius: 10px;
+  transition: 0.2s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .access-button:hover {
-    cursor: pointer;
-    transform: scale(105%);
+  cursor: pointer;
+  transform: scale(105%);
 }
